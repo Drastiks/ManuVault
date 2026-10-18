@@ -15,7 +15,7 @@ returns boolean
 language sql
 stable
 as $$
-  select coalesce(auth.jwt() ->> 'email', '') = lower('axelchau0@gmail.com')
+  select coalesce(auth.jwt() ->> 'email', '') = lower('tonadresse@mail.com')
 $$;
 
 -- 2. Table des dossiers et fichiers (métadonnées) ---------------------------
